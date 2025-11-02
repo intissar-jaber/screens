@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wagonscherm - IC000</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto Slab', serif;
+      margin: 0;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-bottom: 1px solid #999;
+    }
+    .route {
+      font-size: 2em;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      padding: 8px 16px;
+      text-align: left;
+    }
+    tr:nth-child(odd) {
+      background-color: #d9f3f9;
+    }
+    .status-box {
+      background-color: #bde8f0;
+      padding: 10px;
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .icons {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .icon {
+      background-color: #bde8f0;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Charleroi - Centraal</strong></div>
+    <div>
+      <div>01/01/2025</div>
+      <div>00:00</div>
+    </div>
+  </header>
+
+  <div class="route">
+    IC 000 — Marchienne-au-Pont → Luttre
+  </div>
+
+  <div class="status-box">Status: </div>
+
+  <table>
+    <tr><th>Stop</th><th>Aankomst</th><th>Vertrek</th><th>Perron</th></tr>
+    <tr><td>Luttre</td><td>00:00</td><td>00:00</td><td>2</td></tr>
+    <tr><td>Nivelles</td><td>00:00</td><td>00:00</td><td>2</td></tr>
+    <tr><td>Braine-l’Alleud</td><td>00:00</td><td>00:00</td><td>2</td></tr>
+  </table>
+
+  <div class="icons">
+    <div class="icon">🚲</div>
+    <div class="icon">♿</div>
+    <div class="icon">👨‍👩‍👧</div>
+    <div class="icon">🍽️</div>
+    <div class="icon"></div>
+  </div>
+</body>
+</html>
